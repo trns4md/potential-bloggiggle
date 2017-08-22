@@ -1,85 +1,42 @@
-img{
-    height:100%;
-}
+
 body{
-    margin-top: 0.75em;
-    margin-right: 0px;
-    margin-bottom: 0.75em;
-    margin-left: 0px;
     background-color:#FFFEBD;
-    color:
+    font-family: Arial, Helvetica, sans-serif;
 }
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
     background-color:#CC1179;
 }
-
-li {
-    float: right;
-}
-
 li a {
-    display: block;
     color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
 } 
-}
-main{
-    clear: both;
-    
-}
+
 p{
-    width: 65%;
-    padding: 1em;
-    padding-bottom: 1.5px;
     text-align: left;
 }
 h2{
     color:#3332CC;
 }
 article{
-    float: left;
-    width:65%;
     border: 6px solid #2DFF35;
-    margin-top: 6px;
-    margin-bottom: 6px;
+ 
 }
-.first{
-    
-    float: left;
-    position: absolute;
-    margin-top: 0;
-    padding-top: 0;
-    right: 0;
-    text-align: center;
-    margin-right: 2rem;
-    width: 30%;
-    display: block;
+#first{
+    color: white;
     background-color: #CC1179;
+ 
 }
-.second{
-    float: left;
-    position: absolute;
-    margin-top: 12rem;
-    padding-top: 0;
-    right: 0;
-    text-align: center;
-    margin-right: 2rem;
-    width: 400px;
-    display: block;
+#second{
+    color: white;
     background-color: #CC1179;
+    text-align: center;
 }
 h3{
     color:white;
+    font-size: 2rem;
 }
-footer{
-    clear: both;
+#blog-footer{
     margin-top: 12px;
+    text-align: center;
 }
 .comments{
     padding-bottom: 120px;
@@ -106,10 +63,6 @@ button{
     text-align: center;
     text-decoration: none;
 }
-div{
-    margin-top: 12px;
-
-}
 .fa:hover {
     opacity: 0.7;
 }
@@ -127,7 +80,4 @@ div{
 .fa-linkedin{
         background: #55ACEE;
     color: white;
-}
-@media screen and (max-width: 480px){
-    display: block;
 }
