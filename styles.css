@@ -1,7 +1,7 @@
 
 body{
     background-color:#FFFEBD;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Courier;
 }
 ul {
     background-color:#CC1179;
@@ -9,7 +9,16 @@ ul {
 li a {
     color: white;
 } 
-
+img{
+    width: 600px;
+}
+h1{
+    color: blue;
+}
+#maria{
+    width: 400px;
+    
+}
 p{
     text-align: left;
 }
@@ -34,50 +43,8 @@ h3{
     color:white;
     font-size: 2rem;
 }
-#blog-footer{
+footer{
     margin-top: 12px;
     text-align: center;
 }
-.comments{
-    padding-bottom: 120px;
-    width: 40%;
-}
-.name{
-    margin: 30px;
-    width: 40%;
-}
-.email{
-    margin: 30px;
-    width: 40%;
-}
-button{
-    margin-top: 20px;
-}
-.icons{
-    border: none;
-}
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-}
-.fa:hover {
-    opacity: 0.7;
-}
 
-.fa-facebook {
-    background: #3B5998;
-    color: white;
-}
-
-
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
-}
-.fa-linkedin{
-        background: #55ACEE;
-    color: white;
-}
